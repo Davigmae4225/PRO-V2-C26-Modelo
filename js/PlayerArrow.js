@@ -13,25 +13,25 @@ class PlayerArrow {
     World.add(world, this.body);
   }
 
-  /* remove(index) {
+   /*remove(index) {
     this.isRemoved = false;
     Matter.World.remove(world, this.body);
     delete playerArrows[index];
-  } */
+  } /*
 
-  /* remove(index) {
+    remove(index) {
     this.isRemoved = true;
     Matter.World.remove(world, this.body);
     delete playerArrows[index];
   } */
 
-  /* remove(index) {
+  *remove(index) {
     this.isRemoved = true;
     Matter.World.remove(this.body);
     delete playerArrows[index];
-  } */
+  } 
 
-  /* remove(index) {
+  /*remove(index) {
     this.isRemoved = true;
     Matter.World.remove(world, this.body);
     delete playerArrows[];
